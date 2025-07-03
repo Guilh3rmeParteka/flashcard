@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(0, 0, 0, 0.888);
+    background:url('bg-desktop.webp');
     font-family: Bai Jamjuree;
 }
 
@@ -14,7 +14,7 @@ height: 20rem;
 flex-grow: 1;
 flex-basis: calc(33% -6rem);
 }
-.cartao__conteudo {
+.cartao__conteudo {color: aliceblue;
 text-align: center;
 height: 100%;
 }
