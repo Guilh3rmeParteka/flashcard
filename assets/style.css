@@ -26,10 +26,6 @@ flex-grow: 1;
 flex-basis: calc(33% -6rem);
 }
 
-.cartao__conteudo {color: aliceblue;
-text-align: center;
-height: 100%;
-}
 .cartao__conteudo h3 {
 color: var(--text-color);
 border: 1px solid var(--text-color);
@@ -40,6 +36,14 @@ margin: 0.6rem;
 border-radius: 0.6rem;
 font-size: 1vw;
 backface-visibility: hidden;
+}
+
+.cartao__conteudo {color: aliceblue;
+text-align: center;
+height: 100%;
+  background-color: var(--card-front-color);
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 
 footer {
