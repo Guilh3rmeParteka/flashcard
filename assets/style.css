@@ -93,3 +93,22 @@ footer p {
     font-size: 0.6rem;
     margin-top: 0, 5rem;
 }
+
+@media (max-width: 560px) {
+
+    body {
+        background: url('assets/bg-mobile.webp');
+    }
+    .cartao {
+        flex: 1 0 calc(100% - 1rem);
+    }
+
+    .cartao__conteudo h3 {
+    font-size: 3vw;
+}
+
+.cartao__conteudo p {
+    font-size: 3.8vw;
+}
+
+}
